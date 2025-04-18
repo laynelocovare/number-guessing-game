@@ -14,7 +14,6 @@ int main()
 
         cout << "Guess The Number\n";
         cout << "This number I have in my head is between 1 and 100!\n";
-        cout << number << '\n';
         cout << "Your Guess: ";
         cin >> guess;
 
@@ -26,32 +25,17 @@ int main()
                         cout << "Guess again: ";
                         cin >> guess;
                 }
-
                 else if (guess < number)
                 {
                         cout << "The number I'm thinking of is higher than this!\n";
                         cout << "Guess again: ";
                         cin >> guess;
                 }
-
-                else if (i <= 5 && guess == number)
-                {
-                        break;
-                }
-
-                else if (guess != number)
-                {
-                        break;
-                }
         }
 
         if (guess == number)
         {
                 cout << "YOU GOT THE NUMBER!!!\n"; 
-        }
-        else
-        {
-                cout << "You didnt get the number :(\n";
         }
 
         return 0;
