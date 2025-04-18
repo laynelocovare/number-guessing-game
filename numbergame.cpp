@@ -17,7 +17,7 @@ int main()
         cout << "Your Guess: ";
         cin >> guess;
 
-        for (int i = 1; i < 5; i++)
+        while (guess != number)
         {
                 if (guess > number)
                 {
