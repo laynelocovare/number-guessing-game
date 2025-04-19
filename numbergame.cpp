@@ -14,7 +14,6 @@
  
          cout << "Guess The Number\n";
          cout << "This number I have in my head is between 1 and 100!\n";
-         cout << number << '\n';
          cout << "Your Guess: ";
          cin >> guess;
  
